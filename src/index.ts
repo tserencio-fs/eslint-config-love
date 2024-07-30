@@ -367,6 +367,7 @@ const rules = {
     { destructuring: 'all', ignoreReadBeforeAssign: false },
   ],
   'prefer-regex-literals': ['error', { disallowRedundantWrapping: true }],
+  semi: [1, 'always'],
   'symbol-description': ['error'],
   'unicode-bom': ['error', 'never'],
   'use-isnan': [
